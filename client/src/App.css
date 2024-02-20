@@ -1,0 +1,152 @@
+.App {
+  width: 60vw;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+}
+
+.job_title {
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+}
+
+.job_description {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+
+.job_button {
+  width: 507px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.job_button:active {
+  background-color: lightgreen;
+}
+
+.candidate_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.candidate {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.candidate_button {
+  width: 536px;
+  height: 41px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.candidate_button:active {
+  background-color: lightgreen;
+}
+
+.candidate>input {
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+}
+
+.file_upload {
+  display: flex;
+  justify-content: space-between;
+  width: 533px;
+  background-color: white;
+  margin: 10px;
+}
+
+.file {}
+
+.file_button {}
+.file_button:active {
+  background-color: lightgreen;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 545px;
+}
+.main_contents {
+  display: flex;
+}
+.main_job {
+  width: 320px;
+  height: 347px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  align-items: flex-start;
+}
+
+.main_candidate {
+  width: 190px;
+  height: 347px;
+  background-color: white;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_submit {
+  width: 530px;
+  height: 30px;
+  margin: 13px 0px 5px 8px;
+  border-radius: 5px;
+}
+.main_submit:active {
+  background-color: lightgreen;
+}
+
+.main_dialog {
+  width: 530px;
+  height: 30px;
+  margin: 0 0px 5px 8px;
+  border-radius: 5px;
+}
+.main_dialog:active {
+  background-color: lightgreen;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.description_show {
+  width: 91%;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+}
+
+.dialog_text {
+  width: 91%;
+  height: 500px;
+  background-color: white;
+  margin: 10px;
+  overflow: auto;
+}
+
+.radio_button {
+  display: flex;
+}
